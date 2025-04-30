@@ -1,5 +1,6 @@
 import { Globe } from "@/components/globe";
 import { Button } from "../ui/button";
+import { TimerIcon } from "lucide-react";
 import Link from "next/link";
 function Logistik() {
   return (
@@ -26,6 +27,24 @@ function Logistik() {
               <p className="max-w-xl lg:max-w-xl text-muted-foreground text-lg text-left leading-relaxed tracking-tight">
               Eine reibungslose Logistik ist das Rückgrat jedes erfolgreichen Onlineshops. Wir optimieren Ihre Versandprozesse, integrieren smarte Fulfillment-Lösungen und sorgen für eine nahtlose Anbindung an Ihre Shop-Systeme. So garantieren wir schnelle Lieferzeiten, zufriedene Kunden und mehr Zeit für Ihr Kerngeschäft. Mit MILVEO wird Logistik zum Wachstumstreiber.
               </p>
+              <div className="gap-6 grid grid-cols-1 md:grid-cols-2 mt-8">
+              <div className="flex flex-col gap-2">
+                <h3 className="flex items-center font-semibold text-xl"><TimerIcon className="mr-2 w-4 h-4" />Reason 1</h3>
+                <p className="text-muted-foreground">Result sentence 1 that is not too long but 2 lines is okay</p>
+              </div>
+              <div className="flex flex-col gap-2">
+              <h3 className="flex items-center font-semibold text-xl"><TimerIcon className="mr-2 w-4 h-4" />Reason 2</h3>
+                <p className="text-muted-foreground">Result sentence 2 that is not too long but 2 lines is okay</p>
+              </div>
+              <div className="flex flex-col gap-2">
+              <h3 className="flex items-center font-semibold text-xl"><TimerIcon className="mr-2 w-4 h-4" />Reason 3</h3>
+                <p className="text-muted-foreground">Result sentence 3 that is not too long but 2 lines is okay</p>
+              </div>
+              <div className="flex flex-col gap-2">
+                <h3 className="flex items-center font-semibold text-xl"><TimerIcon className="mr-2 w-4 h-4" />Reason 4</h3>
+                <p className="text-muted-foreground">Result sentence 4 that is not too long but 2 lines is okay</p>
+              </div>
+            </div>
               
               <Button className="mt-5 w-fit">
               <Link href="https://calendly.com/d-loessl/kostenlose-erstberatung-15min" className="w-full">

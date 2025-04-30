@@ -188,6 +188,48 @@ export function HeroHome() {
                             </Link>
                         </div>
                         <div className="gap-x-12 gap-y-8 sm:gap-x-16 sm:gap-y-14 grid grid-cols-4 mx-auto mt-12 max-w-2xl transition-all duration-500">
+                            <div className="flex flex-col justify-center items-center col-span-2 sm:col-span-1">
+                                <img
+                                    src="/google-partner.png" 
+                                    alt="Logo 2"
+                                    className="opacity-75 invert w-auto h-12 transition-all duration-300"
+                                />
+                            </div>
+                            <div className="flex flex-col justify-center items-center col-span-2 sm:col-span-1">
+                            <img
+                                    src="/google-partner.png" 
+                                    alt="Logo 2"
+                                    className="opacity-75 invert w-auto h-12 transition-all duration-300"
+                                />
+                            </div>
+                            <div className="flex flex-col justify-center items-center col-span-2 sm:col-span-1">
+                            <img
+                                    src="/google-partner.png" 
+                                    alt="Logo 2"
+                                    className="opacity-75 invert w-auto h-12 transition-all duration-300"
+                                />
+                            </div>
+                            <div className="flex flex-col justify-center items-center col-span-2 sm:col-span-1">
+                            <img
+                                    src="/google-partner.png" 
+                                    alt="Logo 2"
+                                    className="opacity-75 invert w-auto h-12 transition-all duration-300"
+                                />
+                            </div>
+                            <div className="flex flex-col justify-center items-center col-span-2 sm:col-span-1">
+                            <img
+                                    src="/google-partner.png" 
+                                    alt="Logo 2"
+                                    className="opacity-75 invert w-auto h-12 transition-all duration-300"
+                                />
+                            </div>
+                            <div className="flex flex-col justify-center items-center col-span-2 sm:col-span-1">
+                            <img
+                                    src="/google-partner.png" 
+                                    alt="Logo 2"
+                                    className="opacity-75 invert w-auto h-12 transition-all duration-300"
+                                />
+                            </div>
 
                         </div>
                     </div>
