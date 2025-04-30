@@ -1,5 +1,5 @@
 "use client";
-import { animate, motion } from "motion/react";
+import { animate, motion, AnimationSequence } from "motion/react";
 import React, { useEffect } from "react";
 import { cn } from "@/lib/utils";
 
@@ -20,14 +20,14 @@ export function CardDemo() {
 const Skeleton = () => {
   const scale = [1, 1.1, 1];
   const transform = ["translateY(0px)", "translateY(-4px)", "translateY(0px)"];
-  const sequence = [
+  const sequence: AnimationSequence = [
     [
       ".circle-1",
       {
         scale,
         transform,
       },
-      { duration: 0.8 },
+      { duration: 0.8, repeat: Infinity, repeatDelay: 1 },
     ],
     [
       ".circle-2",
@@ -35,7 +35,7 @@ const Skeleton = () => {
         scale,
         transform,
       },
-      { duration: 0.8 },
+      { duration: 0.8, repeat: Infinity, repeatDelay: 1 },
     ],
     [
       ".circle-3",
@@ -43,7 +43,7 @@ const Skeleton = () => {
         scale,
         transform,
       },
-      { duration: 0.8 },
+      { duration: 0.8, repeat: Infinity, repeatDelay: 1 },
     ],
     [
       ".circle-4",
@@ -51,7 +51,7 @@ const Skeleton = () => {
         scale,
         transform,
       },
-      { duration: 0.8 },
+      { duration: 0.8, repeat: Infinity, repeatDelay: 1 },
     ],
     [
       ".circle-5",
@@ -59,15 +59,12 @@ const Skeleton = () => {
         scale,
         transform,
       },
-      { duration: 0.8 },
+      { duration: 0.8, repeat: Infinity, repeatDelay: 1 },
     ],
   ];
 
   useEffect(() => {
-    animate(sequence, {
-      repeat: Infinity,
-      repeatDelay: 1,
-    });
+    animate(sequence);
   }, []);
   return (
     <div className="relative flex justify-center items-center p-8 h-full overflow-hidden">
