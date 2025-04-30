@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import { ArrowRight} from 'lucide-react'
+import { ArrowRight } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { AnimatedGroup } from '@/components/ui/animated-group'
 import MilveoFramework from '@/components/milveo-framework'
@@ -76,7 +76,7 @@ export function HeroHome() {
                             <div className="sm:mx-auto lg:mt-0 lg:mr-auto text-center">
                                 <AnimatedGroup variants={transitionVariants}>
                                     <Link
-                                        href="https://sandan.ai"
+                                        href="https://unknown-ai-website.vercel.app"
                                         className="group flex items-center gap-4 bg-muted hover:bg-background shadow-black/5 shadow-md dark:shadow-zinc-950 mx-auto p-1 pl-4 border dark:border-t-white/5 dark:hover:border-t-border rounded-full w-fit transition-all duration-300">
                                         <div className="flex items-center gap-2">
                                             <span className="text-foreground text-sm">KI Unterstützung für deine Mitarbeiter</span>
@@ -187,45 +187,45 @@ export function HeroHome() {
                                 <span>Expertiese die den Unterschied macht</span>
                             </Link>
                         </div>
-                        <div className="gap-x-12 gap-y-8 sm:gap-x-16 sm:gap-y-14 grid grid-cols-4 mx-auto mt-12 max-w-2xl transition-all duration-500">
+                        <div className="gap-x-12 gap-y-8 sm:gap-x-16 sm:gap-y-14 grid grid-cols-3 mx-auto mt-12 max-w-2xl transition-all duration-500">
                             <div className="flex flex-col justify-center items-center col-span-2 sm:col-span-1">
                                 <img
-                                    src="/google-partner.png" 
+                                    src="/google-partner.png"
                                     alt="Logo 2"
                                     className="opacity-75 invert w-auto h-12 transition-all duration-300"
                                 />
                             </div>
                             <div className="flex flex-col justify-center items-center col-span-2 sm:col-span-1">
-                            <img
-                                    src="/google-partner.png" 
+                                <img
+                                    src="/google-partner.png"
                                     alt="Logo 2"
                                     className="opacity-75 invert w-auto h-12 transition-all duration-300"
                                 />
                             </div>
                             <div className="flex flex-col justify-center items-center col-span-2 sm:col-span-1">
-                            <img
-                                    src="/google-partner.png" 
+                                <img
+                                    src="/google-partner.png"
                                     alt="Logo 2"
                                     className="opacity-75 invert w-auto h-12 transition-all duration-300"
                                 />
                             </div>
                             <div className="flex flex-col justify-center items-center col-span-2 sm:col-span-1">
-                            <img
-                                    src="/google-partner.png" 
+                                <img
+                                    src="/google-partner.png"
                                     alt="Logo 2"
                                     className="opacity-75 invert w-auto h-12 transition-all duration-300"
                                 />
                             </div>
                             <div className="flex flex-col justify-center items-center col-span-2 sm:col-span-1">
-                            <img
-                                    src="/google-partner.png" 
+                                <img
+                                    src="/google-partner.png"
                                     alt="Logo 2"
                                     className="opacity-75 invert w-auto h-12 transition-all duration-300"
                                 />
                             </div>
                             <div className="flex flex-col justify-center items-center col-span-2 sm:col-span-1">
-                            <img
-                                    src="/google-partner.png" 
+                                <img
+                                    src="/google-partner.png"
                                     alt="Logo 2"
                                     className="opacity-75 invert w-auto h-12 transition-all duration-300"
                                 />
