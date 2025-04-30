@@ -167,10 +167,7 @@ export function HeroHome() {
                                 ...transitionVariants,
                             }}>
                             <div className="relative mt-8 sm:mt-12 md:mt-20">
-                                <div
-                                    aria-hidden
-                                    className="z-10 absolute inset-0"
-                                />
+                                
                                 <div className="relative flex justify-center items-center bg-background mx-auto p-4 max-w-6xl overflow-visible">
                                     <MilveoFramework />
                                 </div>
