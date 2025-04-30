@@ -27,7 +27,7 @@ export function HeaderNav() {
         <header>
             <nav
                 data-state={menuState && 'active'}
-                className="group z-20 fixed px-2 w-full">
+                className="group z-99 fixed px-2 w-full">
                 <div className={cn('mx-auto mt-2 max-w-6xl px-6 transition-all duration-300 lg:px-12', isScrolled && 'bg-background/50 max-w-4xl rounded-2xl border backdrop-blur-lg lg:px-5')}>
                     <div className="relative flex flex-wrap justify-between items-center gap-6 lg:gap-0 py-3 lg:py-4">
                         <div className="flex justify-between w-full lg:w-auto">

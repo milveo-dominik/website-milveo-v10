@@ -16,7 +16,7 @@ function Content() {
                 Content Erstellung
               </h2>
               <p className="max-w-xl lg:max-w-xl text-muted-foreground text-lg text-left leading-relaxed tracking-tight">
-              Guter Content ist der Schlüssel zu einer starken Marke und überzeugenden Kauferlebnissen. Wir entwickeln für Sie kreative, zielgruppengerechte Inhalte – von Produkttexten über Blogartikel bis hin zu Social Media Kampagnen. So schaffen wir Vertrauen, steigern die Sichtbarkeit und machen aus Besuchern begeisterte Kunden.
+              Unter Leitung einer Influencerin mit 10 Jahren Erfahrung und 400 tausend Followern auf Social Media, erstellt unser Team monatlich über hunderte Werbegrafiken und UGC-Videos. Wir setzen erfolgreiche Influencer-Marketing-Kampagnen für maximale Reichweite und Engagement um.
               </p>
               
             </div>

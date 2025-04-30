@@ -23,7 +23,7 @@ function Logistik() {
               Logistik
               </h2>
               <p className="max-w-xl lg:max-w-xl text-muted-foreground text-lg text-left leading-relaxed tracking-tight">
-              Eine reibungslose Logistik ist das Rückgrat jedes erfolgreichen Onlineshops. Wir optimieren Ihre Versandprozesse, integrieren smarte Fulfillment-Lösungen und sorgen für eine nahtlose Anbindung an Ihre Shop-Systeme. So garantieren wir schnelle Lieferzeiten, zufriedene Kunden und mehr Zeit für Ihr Kerngeschäft. Mit MILVEO wird Logistik zum Wachstumstreiber.
+              Vertrauen Sie auf über 20 Jahre Logistikerfahrung. Mit über 400 Mitarbeitern in spezialisierten Lagern übernehmen wir alle relevanten E-Commerce-Logistikaufgaben. Von der Verzollung und Containerentladung bis zur Bestellabwicklung und Retourenmanagement.
               </p>
               <div className="gap-6 grid grid-cols-1 md:grid-cols-2 mt-8">
               <div className="flex flex-col gap-2">
