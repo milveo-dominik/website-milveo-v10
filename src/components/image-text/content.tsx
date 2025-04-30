@@ -1,6 +1,6 @@
 import { Button } from "../ui/button";
 import Link from "next/link";
-import { ArrowRight, TimerIcon, EyeIcon, HandshakeIcon, StarIcon, UserPlusIcon } from "lucide-react";
+import { ArrowRight, EyeIcon, HandshakeIcon, StarIcon, UserPlusIcon } from "lucide-react";
 
 function Content() {
   return (

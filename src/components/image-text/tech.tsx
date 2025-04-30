@@ -1,5 +1,5 @@
 import { Compare } from "../ui/compare";
-import { ArrowRight, GoalIcon, RocketIcon, StarIcon, TimerIcon } from "lucide-react";
+import { ArrowRight, GoalIcon, RocketIcon, TimerIcon } from "lucide-react";
 import { Button } from "../ui/button";
 import Link from "next/link";
 import { IconMoneybag } from "@tabler/icons-react";
