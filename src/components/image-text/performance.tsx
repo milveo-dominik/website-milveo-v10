@@ -1,7 +1,9 @@
-import { Layers2, } from "lucide-react";
+import { Layers2 } from "lucide-react";
 import { IconChartLine, IconMoneybag, IconUserSearch } from "@tabler/icons-react";
 import dynamic from 'next/dynamic';
 import { ComponentType } from 'react';
+import { Button } from "../footer/button";
+import Link from "next/link";
 
 // Assuming CardDemo is a React component with no props for now,
 // you can add type safety later as shown in the previous response.
@@ -27,7 +29,7 @@ function Performance() {
                 Performance
               </h2>
               <p className="max-w-xl lg:max-w-xl text-muted-foreground text-lg text-left leading-relaxed tracking-tight">
-              Unser Performance Marketing zielt auf messbare Ergebnisse ab: Mit datengetriebenen Kampagnen, kontinuierlicher Optimierung und kanalübergreifender Skalierung sorgen wir dafür, dass jeder Euro Werbebudget maximale Wirkung entfaltet – für nachhaltiges Wachstum und steigende Umsätze.
+              Mit datengetriebenen Kampagnen, kontinuierlicher Optimierung und kanalübergreifender Skalierung sorgen wir dafür, dass jeder Euro Werbebudget maximale Wirkung entfaltet – für nachhaltiges Wachstum und steigende Umsätze.
               </p>
             </div>
             <div className="gap-6 grid grid-cols-1 md:grid-cols-2 mt-8">
@@ -48,6 +50,13 @@ function Performance() {
                 <p className="text-muted-foreground">Kontinuierliche Analysen und A/B-Tests garantieren die effizienteste Nutzung Ihres Werbebudgets für Top-Ergebnisse.</p>
               </div>
             </div>
+            <div className="flex">
+              <Button className="mt-5 w-fit">
+                <Link href="https://calendly.com/d-loessl/kostenlose-erstberatung-15min" className="w-full">
+                  <span>Kostenloses Erstgespräch</span>
+                </Link>
+                </Button>
+                </div>
           </div>
         </div>
       </div>

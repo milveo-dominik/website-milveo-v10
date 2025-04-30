@@ -51,7 +51,7 @@ function Tech() {
             </div>
             <div className="flex gap-4">
               <Button className="mt-5 w-fit">
-                <Link href="https://wlc.milveo.com" className="w-full">
+                <Link href="https://calendly.com/d-loessl/kostenlose-erstberatung-15min" className="w-full">
                   <span>Kostenloses Erstgespräch</span>
                 </Link>
                 </Button>
