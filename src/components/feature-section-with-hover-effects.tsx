@@ -1,14 +1,5 @@
 import { cn } from "@/lib/utils";
-import {
-  IconAdjustmentsBolt,
-  IconCloud,
-  IconCurrencyDollar,
-  IconEaseInOut,
-  IconHeart,
-  IconHelp,
-  IconRouteAltLeft,
-  IconTerminal2,
-} from "@tabler/icons-react";
+import { ChartNoAxesCombined, PencilRuler, ScanEyeIcon, ShoppingBagIcon, SearchIcon, MailIcon, GalleryVerticalEnd, TruckIcon } from "lucide-react";
 
 export function FeaturesSectionWithHoverEffects() {
   const features = [
@@ -16,46 +7,46 @@ export function FeaturesSectionWithHoverEffects() {
       title: "Strategie & Consulting",
       description:
         "Wir entwickeln individuelle Wachstumsstrategien, die exakt auf Ihr Geschäftsmodell zugeschnitten sind.",
-      icon: <IconTerminal2 />,
+      icon: <PencilRuler />,
     },
     {
       title: "Shopify (Plus) Entwicklung",
       description:
         "Maßgeschneiderte Shopify-Shops und kontinuierliche Optimierung für maximale Conversion.",
-      icon: <IconEaseInOut />,
+      icon: <ShoppingBagIcon />,
     },
     {
       title: "Performance Marketing",
       description:
         "Reichweite und Umsatzsteigerung durch gezielte Kampagnen auf allen relevanten Kanälen.",
-      icon: <IconCurrencyDollar />,
+      icon: <ChartNoAxesCombined />,
     },
     {
         title: "Tracking & Analytics",
         description: "Präzises Tracking und aussagekräftige Analysen für datenbasierte Entscheidungen.",
-        icon: <IconHeart />,
+        icon: <ScanEyeIcon />,
       },
     {
       title: "E-Mail Marketing",
       description: "Automatisierte und personalisierte Kommunikation, die Kunden begeistert und bindet.",
-      icon: <IconCloud />,
+      icon: <MailIcon />,
     },
     {
         title: "SEO/SEA",
         description:
           "Sichtbarkeit, die Umsatz bringt – mit datengetriebenem Suchmaschinenmarketing.",
-        icon: <IconHelp />,
+        icon: <SearchIcon />,
       },
     {
       title: "Content Creation",
       description: "Erstklassige Inhalte, die Kunden begeistern und beim Wachsen unterstützen.",
-      icon: <IconRouteAltLeft />,
+      icon: <GalleryVerticalEnd />,
     },
     {
       title: "Logistik Lösungen",
       description:
         "Effiziente Prozesse und smarte Logistik für zufriedene Kunden und reibungslose Abläufe.",
-      icon: <IconAdjustmentsBolt />,
+      icon: <TruckIcon />,
     },
   ];
   return (
@@ -83,7 +74,8 @@ const Feature = ({
       className={cn(
         "flex flex-col lg:border-r px-0 py-10 relative group/feature dark:border-neutral-800",
         (index === 0 || index === 4) && "lg: border-l dark:border-neutral-800",
-        index < 4 && "border-b dark:border-neutral-800"
+        index < 4 && "border-b dark:border-neutral-800",
+        index > 3 && "border-b dark:border-neutral-800 md:border-b-0",
       )}
     >
       {index < 4 && (

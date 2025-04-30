@@ -27,7 +27,7 @@ function Performance() {
                 Performance
               </h2>
               <p className="max-w-xl lg:max-w-xl text-muted-foreground text-lg text-left leading-relaxed tracking-tight">
-                Unser Framework vereint alle entscheidenden Dienstleistungen für nachhaltiges Wachstum im E-Commerce. Von der Strategie über die technische Umsetzung bis hin zu Performance Marketing und Logistik – wir schaffen Synergien, die Ihren Onlineshop auf das nächste Level heben.
+              Unser Performance Marketing zielt auf messbare Ergebnisse ab: Mit datengetriebenen Kampagnen, kontinuierlicher Optimierung und kanalübergreifender Skalierung sorgen wir dafür, dass jeder Euro Werbebudget maximale Wirkung entfaltet – für nachhaltiges Wachstum und steigende Umsätze.
               </p>
             </div>
             <div className="gap-6 grid grid-cols-1 md:grid-cols-2 mt-8">

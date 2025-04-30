@@ -8,7 +8,7 @@ function Logistik() {
       <div className="mx-auto container">
         <div className="flex lg:flex-row-reverse flex-col lg:items-center gap-10">
         <div className="relative flex justify-center items-center bg-background md:shadow-xl px-40 pt-8 pb-40 md:pb-60 border rounded-lg max-w-lg size-full overflow-hidden">
-      <span className="bg-clip-text bg-gradient-to-b from-black dark:from-white to-gray-300/80 dark:to-slate-900/10 font-semibold text-transparent text-8xl text-center leading-none whitespace-pre-wrap pointer-events-none">
+      <span className="bg-clip-text bg-gradient-to-b from-black dark:from-white to-gray-300/80 dark:to-slate-900/10 font-semibold text-transparent text-7xl md:text-8xl text-center leading-none whitespace-pre-wrap pointer-events-none">
         Weltweit
       </span>
       <Globe className="top-28" />
@@ -21,9 +21,6 @@ function Logistik() {
               <h2 className="mb-2 lg:max-w-xl font-regular text-4xl md:text-5xl text-left tracking-tighter">
               Logistik
               </h2>
-              <h3 className="font-medium text-white text-lg text-left leading-relaxed tracking-tight">
-              Effiziente Logistiklösungen für Ihren E-Commerce-Erfolg
-              </h3>
               <p className="max-w-xl lg:max-w-xl text-muted-foreground text-lg text-left leading-relaxed tracking-tight">
               Eine reibungslose Logistik ist das Rückgrat jedes erfolgreichen Onlineshops. Wir optimieren Ihre Versandprozesse, integrieren smarte Fulfillment-Lösungen und sorgen für eine nahtlose Anbindung an Ihre Shop-Systeme. So garantieren wir schnelle Lieferzeiten, zufriedene Kunden und mehr Zeit für Ihr Kerngeschäft. Mit MILVEO wird Logistik zum Wachstumstreiber.
               </p>

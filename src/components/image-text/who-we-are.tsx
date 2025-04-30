@@ -14,7 +14,7 @@ function WhoWeAre() {
             Arbeiten mit MILVEO
             </h2>
             <p className="max-w-xl lg:max-w-xl text-muted-foreground text-lg leading-relaxed tracking-tight">
-              Wir sind eine Experten Agentur für E-Commerce.
+              Wir sind eine Experten Agentur für Growth Hacking.
             </p>
           </div>
           <div className="flex flex-col gap-10 pt-12 w-full">
@@ -33,7 +33,7 @@ function WhoWeAre() {
                 <div className="flex flex-col gap-1">
                   <p>Alles aus einer Hand – von Strategie bis Logistik</p>
                   <p className="text-muted-foreground text-sm">
-                    Wir bieten ein komplettes Service-Angebot für Ihr E-Commerce Projekt.
+                    Wir bieten ein komplettes Service-Angebot für Ihr Growth Projekt.
                   </p>
                 </div>
               </div>
@@ -42,7 +42,7 @@ function WhoWeAre() {
                 <div className="flex flex-col gap-1">
                   <p>Enterprise-Standards für jedes Projekt</p>
                   <p className="text-muted-foreground text-sm">
-                    Wir setzen hohe Standards für Ihr E-Commerce Projekt.
+                    Wir setzen hohe Standards für Ihr Growth Projekt.
                   </p>
                 </div>
               </div>
@@ -60,7 +60,7 @@ function WhoWeAre() {
                 <div className="flex flex-col gap-1">
                   <p>Nachweisbare Erfolge und zufriedene Kunden</p>
                   <p className="text-muted-foreground text-sm">
-                    Wir zeigen Ihnen, wie wir Ihr E-Commerce Projekt erfolgreich gestartet und weiterentwickelt haben.
+                    Wir zeigen Ihnen, wie wir Ihr Growth Projekt erfolgreich gestartet und weiterentwickelt haben.
                   </p>
                 </div>
               </div>
@@ -69,7 +69,7 @@ function WhoWeAre() {
                 <div className="flex flex-col gap-1">
                   <p>Kostenloses Erstgespräch</p>
                   <p className="text-muted-foreground text-sm">
-                    Wir bieten Ihnen ein kostenloses Erstgespräch an, um Ihr E-Commerce Projekt zu besprechen.
+                    Wir bieten Ihnen ein kostenloses Erstgespräch an, um Ihr Growth Projekt zu besprechen.
                   </p>
                 </div>
               </div>

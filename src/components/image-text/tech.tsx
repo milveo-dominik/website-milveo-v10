@@ -1,5 +1,5 @@
 import { Compare } from "../ui/compare";
-import { ArrowRight, RocketIcon, StarIcon, TimerIcon } from "lucide-react";
+import { ArrowRight, GoalIcon, RocketIcon, StarIcon, TimerIcon } from "lucide-react";
 import { Button } from "../ui/button";
 import Link from "next/link";
 import { IconMoneybag } from "@tabler/icons-react";
@@ -28,7 +28,7 @@ function Tech() {
               Tech
               </h2>
               <p className="max-w-xl lg:max-w-xl text-muted-foreground text-lg text-left leading-relaxed tracking-tight">
-              Unser Framework vereint alle entscheidenden Dienstleistungen für nachhaltiges Wachstum im E-Commerce. Von der Strategie über die technische Umsetzung bis hin zu Performance Marketing und Logistik – wir schaffen Synergien, die Ihren Onlineshop auf das nächste Level heben.
+              Wir sind deine Experten für Shopify und E-Commerce in Deutschland. Mit Leidenschaft und tiefem Know-how helfen wir dir, deinen Online-Shop nicht nur zum Laufen zu bringen, sondern wirklich erfolgreich zu machen.
               </p>
             </div>
             <div className="gap-6 grid grid-cols-1 md:grid-cols-2 mt-8">
@@ -37,7 +37,7 @@ function Tech() {
                 <p className="text-muted-foreground">Wir entwickeln schnelle und stabile Shopify-Shops, die mit deinem Erfolg wachsen.</p>
               </div>
               <div className="flex flex-col gap-2">
-              <h3 className="flex items-center font-semibold text-xl"><StarIcon className="mr-2 w-4 h-4" />Präzise</h3>
+              <h3 className="flex items-center font-semibold text-xl"><GoalIcon className="mr-2 w-4 h-4" />Präzise</h3>
                 <p className="text-muted-foreground">Individuelle Lösungen, perfekt abgestimmt auf deine Bedürfnisse.</p>
               </div>
               <div className="flex flex-col gap-2">
@@ -57,7 +57,7 @@ function Tech() {
                 </Button>
                 <Button className="mt-5 w-fit" variant="outline">
                 <Link href="https://tech.milveo.com" className="flex justify-between items-center gap-2 w-full">
-                  <span>MILVEO TECH entdecken</span>
+                  <span>Zu MILVEO TECH</span>
                   <ArrowRight className="w-4 h-4" />
                 </Link>
                 </Button>

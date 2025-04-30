@@ -359,13 +359,13 @@ const MilveoFramework = ({
         </g>
       </svg>
       {/* Main Box */}
-      <div className="bottom-0 absolute flex flex-col items-center w-full">
+      <div className="bottom-0 absolute flex flex-col items-center w-full overflow-visible">
         {/* bottom shadow */}
-        <div className="-bottom-4 absolute bg-accent/30 rounded-lg w-[62%] h-[100px]" />
+        <div className="hidden -bottom-4 absolute bg-accent/30 rounded-lg w-[62%] h-[100px]" />
         {/* box title */}
         <div className="-top-3 sm:-top-4 z-20 absolute flex justify-center items-center bg-[#101112] px-2 py-1 sm:py-1.5 border border-[#00A6F5] rounded-lg">
           <ChartNoAxesCombined className="size-5" />
-          <span className="ml-2 text-md md:text-2xl">
+          <span className="ml-2 text-md md:text-xl">
             {title ? title : "Profitables Wachstum"}
           </span>
         </div>
@@ -376,13 +376,13 @@ const MilveoFramework = ({
         {/* box content */}
         <div className="z-10 relative flex justify-center items-center bg-background shadow-md border border-[#00A6F5] rounded-lg w-full max-w-[600px] h-[150px] overflow-hidden">
           {/* Badges */}
-          <div className="bottom-8 left-24 z-10 absolute flex items-center gap-2 bg-[#101112] px-3 border rounded-full h-7 text-xs">
+          <div className="bottom-8 left-16 md:left-24 z-10 absolute flex items-center gap-2 bg-[#101112] px-3 border rounded-full h-7 text-xs">
             <IconMoneybag className="size-4" />
             <span>{buttonTexts?.first || "Mehr Umsatz"}</span>
           </div>
-          <div className="hidden right-32 z-10 absolute sm:flex items-center gap-2 bg-[#101112] px-3 border rounded-full h-7 text-xs">
+          <div className="right-10 md:right-32 z-10 absolute flex sm:flex items-center gap-2 gap-2 bg-[#101112] px-3 border rounded-full h-7 text-xs">
             <IconChartBar className="size-4" />
-            <span>{buttonTexts?.second || "Hohe Skalierbarkeit"}</span>
+            <span>{buttonTexts?.second || "Kostenreduktion"}</span>
           </div>
           {/* Circles */}
           <motion.div

@@ -171,7 +171,7 @@ export function HeroHome() {
                                     aria-hidden
                                     className="z-10 absolute inset-0"
                                 />
-                                <div className="relative flex justify-center items-center bg-background mx-auto p-4 max-w-6xl overflow-hidden">
+                                <div className="relative flex justify-center items-center bg-background mx-auto p-4 max-w-6xl overflow-visible">
                                     <MilveoFramework />
                                 </div>
                             </div>
