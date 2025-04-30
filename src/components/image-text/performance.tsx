@@ -1,6 +1,6 @@
-import { TimerIcon } from "lucide-react";
-import { Compare } from "../ui/compare";
-
+import { Layers2, } from "lucide-react";
+import { IconChartLine, IconMoneybag, IconUserSearch } from "@tabler/icons-react";
+import { CardDemo } from "../animated-logo-card";
 function Performance() {
   return (
     <div className="px-4 py-10 w-full">
@@ -8,15 +8,7 @@ function Performance() {
         <div className="flex lg:flex-row flex-col lg:items-center gap-10">
           <div className="flex-1">
             <div className="bg-neutral-100 dark:bg-neutral-900 pt-2 pr-2 pb-2 pl-2 border border-neutral-200 dark:border-neutral-800 rounded-3xl">
-              <Compare
-                firstImage="https://assets.aceternity.com/code-problem.png"
-                secondImage="https://assets.aceternity.com/code-solution.png"
-                firstImageClassName="object-cover object-left-top"
-                secondImageClassname="object-cover object-left-top"
-                className="w-full md:w-[550px] h-[250px] md:h-[400px]"
-                slideMode="drag"
-                showHandlebar={false}
-              />
+              <CardDemo />
             </div>
           </div>
           <div className="flex flex-col flex-1 gap-4 pl-0 lg:pl-20">
@@ -30,20 +22,20 @@ function Performance() {
             </div>
             <div className="gap-6 grid grid-cols-1 md:grid-cols-2 mt-8">
               <div className="flex flex-col gap-2">
-                <h3 className="flex items-center font-semibold text-xl"><TimerIcon className="mr-2 w-4 h-4" />Reason 1</h3>
-                <p className="text-muted-foreground">Result sentence 1 that is not too long but 2 lines is okay</p>
+                <h3 className="flex items-center font-semibold text-xl"><Layers2 className="mr-2 w-4 h-4" />Multi-Channel-Expertise</h3>
+                <p className="text-muted-foreground">Wir beherrschen alle relevanten Kanäle – Meta, Google, TikTok, Pinterest & Snapchat – für maximale Reichweite und Performance.</p>
               </div>
               <div className="flex flex-col gap-2">
-              <h3 className="flex items-center font-semibold text-xl"><TimerIcon className="mr-2 w-4 h-4" />Reason 2</h3>
-                <p className="text-muted-foreground">Result sentence 2 that is not too long but 2 lines is okay</p>
+              <h3 className="flex items-center font-semibold text-xl"><IconMoneybag className="mr-2 w-4 h-4" />E-Commerce Wachstum</h3>
+                <p className="text-muted-foreground">Gezielte Kampagnen zur Steigerung Ihrer Online-Umsätze und zur Optimierung des Customer Lifetime Value (CLV).</p>
               </div>
               <div className="flex flex-col gap-2">
-              <h3 className="flex items-center font-semibold text-xl"><TimerIcon className="mr-2 w-4 h-4" />Reason 3</h3>
-                <p className="text-muted-foreground">Result sentence 3 that is not too long but 2 lines is okay</p>
+              <h3 className="flex items-center font-semibold text-xl"><IconUserSearch className="mr-2 w-4 h-4" />Leadgenerierung</h3>
+                <p className="text-muted-foreground">Wir liefern hochwertige, kaufbereite Leads über Meta Lead Ads und andere Kanäle, die Ihre Sales-Pipeline füllen.</p>
               </div>
               <div className="flex flex-col gap-2">
-                <h3 className="flex items-center font-semibold text-xl"><TimerIcon className="mr-2 w-4 h-4" />Reason 4</h3>
-                <p className="text-muted-foreground">Result sentence 4 that is not too long but 2 lines is okay</p>
+                <h3 className="flex items-center font-semibold text-xl"><IconChartLine className="mr-2 w-4 h-4" />Optimierung</h3>
+                <p className="text-muted-foreground">Kontinuierliche Analysen und A/B-Tests garantieren die effizienteste Nutzung Ihres Werbebudgets für Top-Ergebnisse.</p>
               </div>
             </div>
           </div>

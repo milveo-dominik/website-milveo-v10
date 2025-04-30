@@ -35,7 +35,7 @@ export function HeroHome() {
                     <div className="top-0 left-0 absolute bg-[radial-gradient(50%_50%_at_50%_50%,hsla(0,0%,85%,.06)_0,hsla(0,0%,45%,.02)_80%,transparent_100%)] rounded-full w-56 h-[80rem] -rotate-45 [translate:5%_-50%]" />
                     <div className="top-0 left-0 absolute bg-[radial-gradient(50%_50%_at_50%_50%,hsla(0,0%,85%,.04)_0,hsla(0,0%,45%,.02)_80%,transparent_100%)] w-56 h-[80rem] -rotate-45 -translate-y-[350px]" />
                 </div>
-                <section>
+                <section className='pb-16 md:pb-32'>
                     <div className="relative pt-24 md:pt-36">
                         <AnimatedGroup
                             variants={{
@@ -76,7 +76,7 @@ export function HeroHome() {
                             <div className="sm:mx-auto lg:mt-0 lg:mr-auto text-center">
                                 <AnimatedGroup variants={transitionVariants}>
                                     <Link
-                                        href="https://unknown-ai-website.vercel.app"
+                                        href="https://sandan.milveo.com"
                                         className="group flex items-center gap-4 bg-muted hover:bg-background shadow-black/5 shadow-md dark:shadow-zinc-950 mx-auto p-1 pl-4 border dark:border-t-white/5 dark:hover:border-t-border rounded-full w-fit transition-all duration-300">
                                         <div className="flex items-center gap-2">
                                             <span className="text-foreground text-sm">KI Unterstützung für deine Mitarbeiter</span>
@@ -98,11 +98,11 @@ export function HeroHome() {
 
                                     <h1
                                         className="mx-auto mt-8 lg:mt-16 max-w-5xl font-medium xl:text-[5.25rem] text-5xl md:text-7xl uppercase text-balance">
-                                        E-Commerce Growth Neu gedacht
+                                        Full Stack Growth
                                     </h1>
                                     <p
-                                        className="mx-auto mt-8 max-w-2xl text-lg text-balance">
-                                        Mit dem MILVEO® Framework schöpfen wir das volle Potenzial Ihres Onlineshops aus – Strategie, Technologie & Marketing aus einer Hand.
+                                        className="mx-auto mt-8 max-w-3xl text-lg text-balance">
+                                        Performance Marketing. Tech. Content. Alles aus einer Hand. Alles auf Wachstum. Mit dem MILVEO® Framework skalieren wir DTC-Brands datengetrieben und nachhaltig.
                                     </p>
                                 </AnimatedGroup>
 
@@ -178,7 +178,7 @@ export function HeroHome() {
                         </AnimatedGroup>
                     </div>
                 </section>
-                <section className="bg-background pt-16 pb-16 md:pb-32">
+                <section className="hidden bg-background pt-16 pb-16 md:pb-32">
                     <div className="group relative m-auto px-6 max-w-5xl">
                         <div className="z-10 inset-0 flex justify-center items-center">
                             <Link

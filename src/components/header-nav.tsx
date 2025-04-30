@@ -7,10 +7,9 @@ import { Button } from '@/components/ui/button'
 import { cn } from '@/lib/utils'
 import Image from 'next/image'
 const menuItems = [
-    { name: 'Framework', href: '#link' },
-    { name: 'Dienstleistungen', href: '#link' },
-    { name: 'Referenzen', href: '#link' },
-    { name: 'Kontakt', href: '#link' },
+    { name: 'Framework', href: '#framework' },
+    { name: 'Dienstleistungen', href: '#services' },
+    { name: 'Marketing AI Agents', href: '#ai-agents' },
 ]
 
 export function HeaderNav() {

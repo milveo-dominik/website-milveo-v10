@@ -1,5 +1,9 @@
 import { Compare } from "../ui/compare";
-import { TimerIcon } from "lucide-react";
+import { ArrowRight, RocketIcon, StarIcon, TimerIcon } from "lucide-react";
+import { Button } from "../ui/button";
+import Link from "next/link";
+import { IconMoneybag } from "@tabler/icons-react";
+
 function Tech() {
   return (
     <div className="px-4 py-10 w-full">
@@ -29,22 +33,35 @@ function Tech() {
             </div>
             <div className="gap-6 grid grid-cols-1 md:grid-cols-2 mt-8">
               <div className="flex flex-col gap-2">
-                <h3 className="flex items-center font-semibold text-xl"><TimerIcon className="mr-2 w-4 h-4" />Reason 1</h3>
-                <p className="text-muted-foreground">Result sentence 1 that is not too long but 2 lines is okay</p>
+                <h3 className="flex items-center font-semibold text-xl"><RocketIcon className="mr-2 w-4 h-4" />Performant</h3>
+                <p className="text-muted-foreground">Wir entwickeln schnelle und stabile Shopify-Shops, die mit deinem Erfolg wachsen.</p>
               </div>
               <div className="flex flex-col gap-2">
-              <h3 className="flex items-center font-semibold text-xl"><TimerIcon className="mr-2 w-4 h-4" />Reason 2</h3>
-                <p className="text-muted-foreground">Result sentence 2 that is not too long but 2 lines is okay</p>
+              <h3 className="flex items-center font-semibold text-xl"><StarIcon className="mr-2 w-4 h-4" />Präzise</h3>
+                <p className="text-muted-foreground">Individuelle Lösungen, perfekt abgestimmt auf deine Bedürfnisse.</p>
               </div>
               <div className="flex flex-col gap-2">
-              <h3 className="flex items-center font-semibold text-xl"><TimerIcon className="mr-2 w-4 h-4" />Reason 3</h3>
-                <p className="text-muted-foreground">Result sentence 3 that is not too long but 2 lines is okay</p>
+              <h3 className="flex items-center font-semibold text-xl"><TimerIcon className="mr-2 w-4 h-4" />Schnell</h3>
+                <p className="text-muted-foreground">Dein Shop ist in kürzester Zeit online – effizient und stressfrei.</p>
               </div>
               <div className="flex flex-col gap-2">
-                <h3 className="flex items-center font-semibold text-xl"><TimerIcon className="mr-2 w-4 h-4" />Reason 4</h3>
-                <p className="text-muted-foreground">Result sentence 4 that is not too long but 2 lines is okay</p>
+                <h3 className="flex items-center font-semibold text-xl"><IconMoneybag className="mr-2 w-4 h-4" />Preiswert</h3>
+                <p className="text-muted-foreground">Hochwertige Ergebnisse zu fairen und transparenten Preisen.</p>
               </div>
             </div>
+            <div className="flex gap-4">
+              <Button className="mt-5 w-fit">
+                <Link href="https://wlc.milveo.com" className="w-full">
+                  <span>Kostenloses Erstgespräch</span>
+                </Link>
+                </Button>
+                <Button className="mt-5 w-fit" variant="outline">
+                <Link href="https://tech.milveo.com" className="flex justify-between items-center gap-2 w-full">
+                  <span>MILVEO TECH entdecken</span>
+                  <ArrowRight className="w-4 h-4" />
+                </Link>
+                </Button>
+                </div>
           </div>
         </div>
       </div>

@@ -55,17 +55,14 @@ function Footer() {
           <div>
             <h3 className="mb-4 font-semibold text-lg">Navigation</h3>
             <nav className="space-y-2 text-sm">
-              <a href="#" className="block hover:text-primary transition-colors">
+              <a href="#framework" className="block hover:text-primary transition-colors">
                 Framework
               </a>
-              <a href="#" className="block hover:text-primary transition-colors">
+              <a href="#services" className="block hover:text-primary transition-colors">
                 Dienstleistungen
               </a>
               <a href="#" className="block hover:text-primary transition-colors">
-                Referenzen
-              </a>
-              <a href="#" className="block hover:text-primary transition-colors">
-                Kontakt
+                Marketing AI Agents
               </a>
             </nav>
           </div>
@@ -107,7 +104,7 @@ function Footer() {
                 </Tooltip>
               </TooltipProvider>
             </div>
-            <div className="flex items-center space-x-2">
+            <div className="hidden flex items-center space-x-2">
               <Sun className="w-4 h-4" />
               <Switch
                 id="dark-mode"
