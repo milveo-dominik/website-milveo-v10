@@ -1,5 +1,5 @@
 "use client";
-import { animate, motion, AnimationSequence } from "motion/react";
+import { useAnimate, motion } from "framer-motion";
 import React, { useEffect } from "react";
 import { cn } from "@/lib/utils";
 
@@ -18,56 +18,47 @@ export function CardDemo() {
 }
 
 const Skeleton = () => {
+  const [scope, animate] = useAnimate();
+  
   const scale = [1, 1.1, 1];
   const transform = ["translateY(0px)", "translateY(-4px)", "translateY(0px)"];
-  const sequence: AnimationSequence = [
-    [
-      ".circle-1",
-      {
-        scale,
-        transform,
-      },
-      { duration: 0.8, repeat: Infinity, repeatDelay: 1 },
-    ],
-    [
-      ".circle-2",
-      {
-        scale,
-        transform,
-      },
-      { duration: 0.8, repeat: Infinity, repeatDelay: 1 },
-    ],
-    [
-      ".circle-3",
-      {
-        scale,
-        transform,
-      },
-      { duration: 0.8, repeat: Infinity, repeatDelay: 1 },
-    ],
-    [
-      ".circle-4",
-      {
-        scale,
-        transform,
-      },
-      { duration: 0.8, repeat: Infinity, repeatDelay: 1 },
-    ],
-    [
-      ".circle-5",
-      {
-        scale,
-        transform,
-      },
-      { duration: 0.8, repeat: Infinity, repeatDelay: 1 },
-    ],
-  ];
-
+  const animationConfig = { duration: 0.8 };
+  
   useEffect(() => {
-    animate(sequence);
-  }, []);
+    let isMounted = true;
+    
+    const animateSequence = async () => {
+      if (!isMounted) return;
+      
+      await animate(".circle-1", { scale, transform }, animationConfig);
+      await animate(".circle-2", { scale, transform }, animationConfig);
+      await animate(".circle-3", { scale, transform }, animationConfig);
+      await animate(".circle-4", { scale, transform }, animationConfig);
+      await animate(".circle-5", { scale, transform }, animationConfig);
+      
+      // Add a delay before repeating
+      await animate(scope.current, { opacity: 1 }, { duration: 1 });
+      
+      // Recursively call to create infinite loop
+      if (isMounted) {
+        animateSequence();
+      }
+    };
+    
+    animateSequence();
+    
+    // Cleanup function to stop animations when component unmounts
+    return () => {
+      isMounted = false;
+    };
+  }, [animate]);
+  
   return (
-    <div className="relative flex justify-center items-center p-8 h-full overflow-hidden">
+    <div 
+      ref={scope}
+      className="relative flex justify-center items-center p-8 h-full overflow-hidden"
+    >
+      {/* Rest of your component remains the same */}
       <div className="flex flex-row justify-center items-center gap-2 shrink-0">
         <Container className="w-8 h-8 circle-1">
           <ClaudeLogo className="w-4 h-4" />

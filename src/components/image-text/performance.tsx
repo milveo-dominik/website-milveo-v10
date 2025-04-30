@@ -1,6 +1,16 @@
 import { Layers2, } from "lucide-react";
 import { IconChartLine, IconMoneybag, IconUserSearch } from "@tabler/icons-react";
-import { CardDemo } from "../animated-logo-card";
+import dynamic from 'next/dynamic';
+import { ComponentType } from 'react';
+
+// Assuming CardDemo is a React component with no props for now,
+// you can add type safety later as shown in the previous response.
+// eslint-disable-next-line @typescript-eslint/no-empty-object-type
+const CardDemo: ComponentType<{}> = dynamic(
+  () => import('@/components/animated-logo-card').then((mod) => mod.CardDemo),
+  { ssr: false }
+);
+
 function Performance() {
   return (
     <div className="px-4 py-10 w-full">

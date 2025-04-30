@@ -33,7 +33,7 @@ function Footer() {
               <img src="/logo.png" alt="Milveo Logo" className="brightness-0 invert w-24" />
             </h2>
             <p className="mb-6 text-muted-foreground">
-              Das Framework für Growth im E-Commerce
+            Performance Marketing. Tech. Content. Alles aus einer Hand. Alles auf Wachstum. Mit dem MILVEO® Framework skalieren wir DTC-Brands datengetrieben und nachhaltig.
             </p>
             <form className="hidden relative">
               <Input
