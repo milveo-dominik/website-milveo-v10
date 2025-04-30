@@ -135,6 +135,11 @@ function Footer() {
           </nav>
         </div>
       </div>
+      <div className="flex justify-center items-center mt-4 w-full">
+          <h1 className="bg-clip-text bg-gradient-to-b from-white to-black opacity-30 font-bold text-transparent lg:text-[10rem] text-3xl md:text-5xl text-center select-none">
+            MILVEO
+          </h1>
+        </div>
     </footer>
   )
 }
