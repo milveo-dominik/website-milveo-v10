@@ -380,3 +380,4 @@ html{
 .animate-marquee {
   animation: marquee var(--duration) linear infinite;
 }
+
