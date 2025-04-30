@@ -1,5 +1,3 @@
-import { Badge } from "@/components/ui/badge";
-import Image from "next/image";
 import { Content3d } from "../content-3d";
 import { Button } from "../ui/button";
 import Link from "next/link";

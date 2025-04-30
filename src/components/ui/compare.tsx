@@ -36,6 +36,8 @@ export const Compare = ({
 
   const [isMouseOver, setIsMouseOver] = useState(false);
 
+  console.log(isMouseOver);
+
   const autoplayRef = useRef<NodeJS.Timeout | null>(null);
 
   const startAutoplay = useCallback(() => {
@@ -88,6 +90,7 @@ export const Compare = ({
       if (slideMode === "drag") {
         setIsDragging(true);
       }
+      console.log(clientX);
     },
     [slideMode]
   );

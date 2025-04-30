@@ -2,7 +2,7 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import { Folder, HeartHandshakeIcon, SparklesIcon, Building2, ChartNoAxesCombined } from "lucide-react";
+import { Building2, ChartNoAxesCombined } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { IconChartBar, IconMoneybag } from "@tabler/icons-react";
 
