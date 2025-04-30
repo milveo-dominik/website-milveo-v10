@@ -20,7 +20,7 @@ function Ai() {
               Marketing AI Agents
               </h2>
               <p className="max-w-xl lg:max-w-xl text-muted-foreground text-lg text-left leading-relaxed tracking-tight">
-              <b>Entlastung auf C-Level. Beschleunigung im Team</b><br/>Mit individuell entwickelten AI Agents integrieren wir Künstliche Intelligenz tief in Ihre Marketingprozesse – für automatisierte Effizienz und strategischen Vorsprung.
+              <b>Entlastung auf C-Level. Effizienteres Team</b><br />Mit individuell entwickelten AI Agents integrieren wir Künstliche Intelligenz tief in Ihre Marketingprozesse – für automatisierte Effizienz und strategischen Vorsprung.
               </p>
             </div>
             <div className="gap-6 grid grid-cols-1 md:grid-cols-2 mt-8">

@@ -1,7 +1,8 @@
 import { Globe } from "@/components/globe";
 import { Button } from "../ui/button";
-import { TimerIcon } from "lucide-react";
+import { ArrowDownIcon, ChartBarDecreasingIcon, ClockIcon, ThumbsUpIcon } from "lucide-react";
 import Link from "next/link";
+import { IconTruckDelivery } from "@tabler/icons-react";
 function Logistik() {
   return (
     <div className="px-4 py-10 w-full">
@@ -26,19 +27,19 @@ function Logistik() {
               </p>
               <div className="gap-6 grid grid-cols-1 md:grid-cols-2 mt-8">
               <div className="flex flex-col gap-2">
-                <h3 className="flex items-center font-semibold text-xl"><TimerIcon className="mr-2 w-4 h-4" />Schnelle Lieferzeiten</h3>
+                <h3 className="flex items-center font-semibold text-xl"><IconTruckDelivery className="mr-2 w-4 h-4" />Schnelle Lieferzeiten</h3>
                 <p className="text-muted-foreground">Sorgen Sie für glückliche Kunden durch pünktliche Zustellung.</p>
               </div>
               <div className="flex flex-col gap-2">
-              <h3 className="flex items-center font-semibold text-xl"><TimerIcon className="mr-2 w-4 h-4" />Weniger Fehler & Retouren</h3>
+              <h3 className="flex items-center font-semibold text-xl"><ThumbsUpIcon className="mr-2 w-4 h-4" />Weniger Fehler & Retouren</h3>
                 <p className="text-muted-foreground">Optimierte Abläufe minimieren Fehler im Versand.</p>
               </div>
               <div className="flex flex-col gap-2">
-              <h3 className="flex items-center font-semibold text-xl"><TimerIcon className="mr-2 w-4 h-4" />Geringere Kosten</h3>
+              <h3 className="flex items-center font-semibold text-xl"><ChartBarDecreasingIcon className="mr-2 w-4 h-4" />Geringere Kosten</h3>
                 <p className="text-muted-foreground">Effiziente Prozesse sparen bares Geld bei der Logistik.</p>
               </div>
               <div className="flex flex-col gap-2">
-                <h3 className="flex items-center font-semibold text-xl"><TimerIcon className="mr-2 w-4 h-4" />Mehr Zeit für Ihr Business</h3>
+                <h3 className="flex items-center font-semibold text-xl"><ClockIcon className="mr-2 w-4 h-4" />Mehr Zeit für Ihr Business</h3>
                 <p className="text-muted-foreground">Geben Sie die Logistik ab und fokussieren Sie sich auf Wachstum.</p>
               </div>
             </div>
