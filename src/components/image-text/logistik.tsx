@@ -1,6 +1,6 @@
 import { Globe } from "@/components/globe";
 import { Button } from "../ui/button";
-import { ArrowDownIcon, ChartBarDecreasingIcon, ClockIcon, ThumbsUpIcon } from "lucide-react";
+import { ChartBarDecreasingIcon, ClockIcon, ThumbsUpIcon } from "lucide-react";
 import Link from "next/link";
 import { IconTruckDelivery } from "@tabler/icons-react";
 function Logistik() {
