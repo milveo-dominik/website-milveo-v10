@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "MILVEO - Your Digital Partner",
-  description: "MILVEO - Your Digital Partner",
+  title: "MILVEO - Dein Full Stack Growth Partner",
+  description: "MILVEO - Dein Full Stack Growth Partner",
 };
 
 export default function RootLayout({

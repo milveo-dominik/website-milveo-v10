@@ -365,7 +365,7 @@ const MilveoFramework = ({
         {/* box title */}
         <div className="-top-3 sm:-top-4 z-20 absolute flex justify-center items-center bg-[#101112] px-2 py-1 sm:py-1.5 border border-[#00A6F5] rounded-lg">
           <ChartNoAxesCombined className="size-5" />
-          <span className="ml-2 text-md md:text-xl">
+          <span className="ml-2 text-sm md:text-xl">
             {title ? title : "Profitables Wachstum"}
           </span>
         </div>
@@ -380,9 +380,9 @@ const MilveoFramework = ({
             <IconMoneybag className="size-4" />
             <span>{buttonTexts?.first || "Mehr Umsatz"}</span>
           </div>
-          <div className="right-10 md:right-32 z-10 absolute flex sm:flex items-center gap-2 gap-2 bg-[#101112] px-3 border rounded-full h-7 text-xs">
+          <div className="right-10 md:right-32 z-10 absolute flex sm:flex items-center gap-2 bg-[#101112] px-3 border rounded-full h-7 text-xs">
             <IconChartBar className="size-4" />
-            <span>{buttonTexts?.second || "Kostenreduktion"}</span>
+            <span>{buttonTexts?.second || "Weniger Kosten"}</span>
           </div>
           {/* Circles */}
           <motion.div
@@ -420,3 +420,25 @@ const MilveoFramework = ({
 };
 
 export default MilveoFramework;
+
+const DatabaseIcon = ({ x = "0", y = "0" }: { x: string; y: string }) => {
+  return (
+    <svg
+      x={x}
+      y={y}
+      xmlns="http://www.w3.org/2000/svg"
+      width="5"
+      height="5"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="white"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <ellipse cx="12" cy="5" rx="9" ry="3" />
+      <path d="M3 5V19A9 3 0 0 0 21 19V5" />
+      <path d="M3 12A9 3 0 0 0 21 12" />
+    </svg>
+  );
+};
