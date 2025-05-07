@@ -15,7 +15,10 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "MILVEO - Dein Full Stack Growth Partner",
-  description: "MILVEO - Dein Full Stack Growth Partner",
+  description: "Performance Marketing. Tech. Content. Alles aus einer Hand. Alles auf Wachstum. Mit dem MILVEO® Framework skalieren wir DTC-Brands datengetrieben und nachhaltig.",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({

@@ -9,7 +9,7 @@ export function CardDemo() {
       <CardSkeletonContainer>
         <Skeleton />
       </CardSkeletonContainer>
-      <CardTitle>Kampagnen die Konvertieren</CardTitle>
+      <CardTitle>Kampagnen, die konvertieren</CardTitle>
       <CardDescription>
         Wir erstellen Kampagnen, die Ihre Ziele erreichen und Ihre Kunden binden.
       </CardDescription>
